@@ -1,5 +1,5 @@
-<div id="starfield" class="absolute inset-0">
-  <canvas id="starfield-canvas"></canvas>
+<div id="starfield" class="absolute inset-0 ">
+  <canvas id="starfield-canvas" ></canvas>
 </div>
 
 <script>
@@ -85,8 +85,8 @@
     }
 
     ctx.translate(width / 2, height / 2);
-    ctx.fillStyle = "rgba(0, 0, 0, 0.4)";
-    ctx.strokeStyle = "white";
+    ctx.fillStyle = "rgba(0, 0, 0, 0.2)";
+    ctx.strokeStyle = "#57dbc3";
     rafId = requestAnimationFrame(frame);
   }
 
