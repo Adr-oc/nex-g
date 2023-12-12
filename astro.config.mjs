@@ -10,4 +10,6 @@ export default defineConfig({
       external: ["svgo"],
     },
   },
+  site: 'https://Adr-oc.github.io',
+  base: '/nexG',
 });
